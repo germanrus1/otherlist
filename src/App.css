@@ -38,9 +38,37 @@
   height: 100px;
 }
 .list_item {
-  height: 50px;
+  margin: 0 0 20px 0;
 }
 .list_content {
-  width: 500px;
-  margin: auto;
+width: 500px;
+margin: auto;
+}
+.item__header {
+  border-width: 1px;
+  border-radius: 7px 7px 0 0;
+  border-color: #e1e1e1;
+  height: 60px;
+  border-style: solid;
+  cursor: pointer;
+}
+.item__date {
+  font-size: 35px;
+  margin-left: 10px;
+}
+.item__day {
+  margin-left: 20px;
+  line-height: 65px;
+  font-size: 23px;
+  font-family: Arial;
+}
+.item__content {
+  border-radius: 1px 1px 5px 5px;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-color: #e1e1e1;
+}
+.text__date {
+  font-family: Arial Black;
+  font-size: 35px;
 }
