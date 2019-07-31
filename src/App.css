@@ -35,7 +35,7 @@
   height: 100px;
 }
 .list_header {
-  height: 100px;
+  min-height: 100px;
 }
 .list_item {
   margin: 0 0 20px 0;
